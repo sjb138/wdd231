@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD321 Front-End Web Development Course Home Page">
+    <meta name="author" content="Your Name">
+    <title>WDD321 Course Home</title>
+    <link rel="stylesheet" href="Web Development\wdd231\styles\styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="Web Development\wdd231\images\profile.jpeg" alt="Stephen Balboa" width="50" height="50">
+        <span>Stephen Balboa</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="https://github.com/sjb138">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/login">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>Section 1</h2>
+            <p>Content for section 1.</p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+        </section>
+        <section>
+            <h2>Section 3</h2>
+            <p>Content for section 3.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Stephen Joseph Entrolezo Balboa | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+    </script>
+</body>
+</html>
 
